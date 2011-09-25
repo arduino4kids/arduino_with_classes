@@ -11,7 +11,7 @@ void setup() {}; //put in here anything that needs to be done on startup
 
 void loop() {
   my_led.on();  //ask the LED to turn on
-  delay(100);              // wait for a second
+  delay(100);              // wait for a 10th of a second
   my_led.off(); //ask the LED to turn off
-  delay(100);              // wait for a second
+  delay(100);              // wait for a 10th of a second
 }
