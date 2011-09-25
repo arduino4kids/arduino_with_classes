@@ -2,7 +2,7 @@
 //Now we can have state and turn the led object on or off, or toggle it if that is preferred
 //include the WProgram.h header file from Arduino so that you get their constants, like OUTPUT, HIGH, LOW
 
-#include "WProgram.h"
+#include "WProgram.h" //include this so that we get the arduino constants (HIGH, OUTPUT, etc)
 
 class Led {
   public:
