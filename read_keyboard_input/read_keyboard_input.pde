@@ -20,7 +20,7 @@ void loop() {
     //nothing was read
   }
   else if (letter == int('q')){ //if they press the lowercase q, we close the serial connection
-    serial.print_string("Goobye");
+    serial.print_string("Goodbye");
     serial.close_port();
   }
   else {
